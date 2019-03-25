@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-from monitoring import *
+
 __doc__ = """
 Shows how to periodically query a system's memory, disk & cpy usage
 and logs to a file when the system metrics exceeds the values.
