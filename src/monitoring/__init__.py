@@ -13,6 +13,7 @@ from __future__ import print_function
 
 import re, sys, os, time, datetime, stat, smtplib, string, json, fnmatch, types
 import socket, threading, subprocess, glob, traceback
+import jenkins
 try:
 	import httplib
 except ImportError as e:
