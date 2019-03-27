@@ -2,7 +2,7 @@
 # Encoding: utf-8
 # See: <http://docs.python.org/distutils/introduction.html>
 from distutils.core import setup
-VERSION = eval(filter(lambda _:_.startswith("__version__"), file("Sources/monitoring.py").readlines())[0].split("=")[1])
+VERSION = eval(filter(lambda _:_.startswith("__version__"), file("src/monitoring.py").readlines())[0].split("=")[1])
 setup(
 	name             = "monitoring",
 	version          = VERSION,
